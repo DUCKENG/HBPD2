@@ -9,6 +9,9 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
+    <audio autoplay>
+        <source src="https://www.youtube.com/watch?v=5u4xTa3LR2U">
+    </audio>
     <div id="wrapper">
         <div class="flag__birthday">
             <img src="./images/1.png" alt="" width="350" class="flag__left">
@@ -51,11 +54,11 @@
             <div class="right">
                 <div class="box__account">
                     <div class="image">
-                        <img src="./images/duyen.jpg" alt="">
+                        <img src="./images/linh.jpg" alt="">
                     </div>
                     <div class="name">
                         <i class="fa-solid fa-heart"></i>
-                        <span> Mỹ Duyên</span>
+                        <span> Lin Lin</span>
                         <i class="fa-solid fa-heart"></i>
                     </div>
                     <div class="balloon_one">
@@ -142,8 +145,8 @@
     </div>
 </body>
 <script>
-    let datetxt = "17-04-2003";
-    let datatxtletter = "Hôm nay là ngày gì? Chắc chắn là một ngày không bình thường để kỉ niệm cho cột mốc ra đời của một đứa bất thường như mày đó bạn ạ. Chúc mày sinh nhật vui nhiều hơn chữ vui, tiền cao hơn chữ tiền và buồn ngắn hơn chữ buồn. Sinh nhật vui vẻ và bớt tưng tửng đi nhé🤣";
+    let datetxt = "01-08-2002";
+    let datatxtletter = "Công túa tuổi 18😗 hạnh phúc, miệng lúc nào cũng tươi cười không phiền lòng vì chuyện gì nữa hết. Tuổi mới làm gì cũng suôn sẻ tiền vô ào ào tiền ra rỉ rỉ(để sớm bao nuôi đ.em ạ😂).Love you❤";
     let titleLetter = "Gửi bạn";
     let charArrDate = datetxt.split('');
     let charArrDateLetter = datatxtletter.split('');
@@ -168,7 +171,6 @@
             }
         },100)
     },12000)
-
     var intervalContent;
     var intervalTitle;
     $("#btn__letter").on("click", function(){

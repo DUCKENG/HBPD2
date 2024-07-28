@@ -190,6 +190,9 @@ body {
     font-family: "Sriracha", cursive;
     
 }
+.name{
+    margin-left: 60px;
+}
 .date__of__birth{
     border: 3px solid var(--color-black);
     position: relative;
